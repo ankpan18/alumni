@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Alumni</title>
+</head>
+<style>
+    .firstbox {
+        border-top: 8px groove #3b3b3b;
+        padding-top: 5%;
+    }
+    
+    .navbar-right {
+        float: right!important;
+    }
+    
+    .nav-item {
+        border-right: 1.2px solid black;
+        display: inline-block;
+        padding: 4px 4px;
+    }
+    
+    .nav-item:hover {
+        transition: 0.6s;
+        background-color: #FF5454;
+    }
+    
+    .text-center {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .soc_icons ul {
+        margin-bottom: 0;
+    }
+    
+    .soc_icons ul li {
+        display: inline-block;
+        padding: 4px 4px;
+        border-left: 1px solid rgb(39, 37, 37);
+        margin-left: 7px;
+        font-size: x-large;
+    }
+    
+    .soc_icons ul li:hover {
+        transition: 0.8s;
+        background-color: #FF5454;
+        color: white;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        background-image: url("b.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .btn {
+        font-size: 14px;
+        padding: 15px 40px;
+        position: relative;
+        color: white;
+        display: block;
+        overflow: hidden;
+        transition: 1s all ease;
+    }
+    
+    .btn1 {
+        border: 1px solid #FF5454;
+    }
+    
+    .btn::before {
+        background: #FF5454;
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        z-index: -1;
+        transition: all 0.2 easein;
+    }
+    
+    .btn1::before {
+        width: 100%;
+        transition: 0.2s ease-in;
+        height: 0%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    
+    .btn1:hover::before {
+        height: 180%;
+        transition: 0.2s ease-in;
+    }
+    
+    .navbar {
+        padding: 0rem 1rem;
+    }
+    
+    .images_1_of_4 {
+        font-size: 6em;
+        float: right !important;
+    }
+    
+    .technology {
+        padding: 4% 0;
+    }
+    
+    .technology_list1 {
+        margin-top: 20px;
+    }
+    
+    .pull-right {
+        float: right!important;
+    }
+    
+    .para {
+        font-size: 18px;
+    }
+    
+    p {
+        margin: 0 0 10px;
+    }
+    
+    .page-link {
+        background-color: black;
+        color: gray;
+        border: black;
+    }
+    
+    .footer_bg {
+        background-color: white;
+        height: 150px;
+        padding: 4%;
+    }
+</style>
+
+<body>
+
+    <div class="container firstbox ">
+        <div class="row ">
+            <div class="col ">
+                <h1 style="font-size:30px ; ">WELCOME ALUMNUS AND ALUMNA</h1>
+            </div>
+            <div class="col ">
+                <div class="form-inline navbar-right ">
+
+                    <input class="form-control " type="search " placeholder="Enter text here " aria-label="Search ">
+                    <button class="btn btn-dark my-2 my-sm-0 " type="submit ">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">HOME <span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item active " style="background-color: #FF5454; ">
+                        <a class="nav-link " href="technology.html">TECHNOLOGIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html ">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="soc_icons navbar-right ">
+                <ul class="list-unstyled text-center px-4 ">
+                    <li><a href="# "><i class="fab fa-twitter " style="color:white; "></i></a></li>
+                    <li><a href="# "><i class="fab fa-facebook " style="color:white; "></i></a></li>
+                    <li><a href="# "><i class="fab fa-google-plus " style="color:white; "></i></a></li>
+                    <li><a href="# "><i class="fab fa-youtube " style="color:white; "></i></a></li>
+                    <li><a href="# "><i class="fab fa-linkedin " style="color:white; "></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main_bg py-4">
+        <!-- start main -->
+        <div class="container">
+            <div class="technology row">
+                <h2>&nbsp;&nbsp; OUR TECHNOLOGIES</h2>
+                <div class="technology_list">
+                    <h4></h4>
+                    <div class="col-md-10 tech_para">
+                        <p class="para">TeraCopy is a premium transfer utility designed as an alternative for the built-in Windows Explorer file transfer feature. Its focus is data integrity, file transfer reliability and the ability to pause or resume file transfers.</p>
+                    </div>
+                    <div class="col-md-2 images_1_of_4 bg1 pull-right">
+                        <i class="far fa-file"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-2">
+                        <a href="# " <button type="button " class="btn btn1 ">Read More</button></a>
+                    </div>
+                </div>
+                <div class="technology_list1">
+                    <h4></h4>
+                    <div class="col-md-10 tech_para">
+                        <p class="para">Finally a machine that can harness the power of even the highest-performance gaming desktop. With upgradeable and overclockable CPU and GPU, the Area-51m is now the world's most powerful* and upgradeable* gaming laptop.</p>
+                    </div>
+                    <div class="col-md-2 images_1_of_4 bg1 pull-right">
+                        <span class="bg"><i class="fa fa-laptop"></i> </span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-2">
+                        <a href="# " <button type="button " class="btn btn1 ">Read More</button></a>
+                    </div>
+                </div>
+                <div class="technology_list1">
+                    <h4></h4>
+                    <div class="col-md-10 tech_para">
+                        <p class="para">Steamworks is the set of tools and services that help game developers and publishers get the most out of distributing games on Steam.</p>
+                    </div>
+                    <div class="col-md-2 images_1_of_4 bg1 pull-right">
+                        <span class="bg"><i class="fas fa-cog"></i> </span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-2">
+                        <a href="# " <button type="button " class="btn btn1 ">Read More</button></a>
+                    </div>
+                </div>
+                <div class="technology_list1">
+                    <h4></h4>
+                    <div class="col-md-10 tech_para">
+                        <p class="para">Comprehensive security that blocks malware and hackers. It protects you from threats that traditional antivirus isn't smart enough to stop.
+
+                        </p>
+                    </div>
+                    <div class="col-md-2 images_1_of_4 bg1 pull-right">
+                        <span class="bg"><i class="far fa-file"></i> </span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-2">
+                        <a href="# " <button type="button " class="btn btn1 ">Read More</button></a>
+                    </div>
+                </div>
+
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination p-4">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <br>
+
+                <div class="alert alert-warning alert-dismissable pull-right my-4">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer_bg ">
+        <!-- start footer -->
+        <div class="container ">
+            <div class="row footer ">
+                <div class="col ">
+                    <p class="link text-center ">© All rights reserved | Design by <a href="#" style="color: #ff5454;">Ankur Panthri</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js " integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s " crossorigin="anonymous "></script>
+    -->
+</body>
+
+</html>
